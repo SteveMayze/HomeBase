@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/pcbs/Leawood/HomeBase/kicad/Rpi_Adapter/Rpi_Adapter.sch)
-    (date "15/08/2017 21:17:53")
+    (date "19/08/2017 09:59:32")
     (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -76,10 +76,10 @@
         (pin (num 11) (name P11) (type passive))
         (pin (num 12) (name P12) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical fieldDevice_symbols)
-      (uri D:\pcbs\Leawood\FieldDevice\kicad\lib\fieldDevice_symbols.lib)))
+      (uri D:\pcbs\Leawood\FieldDevice\kicad\lib\fieldDevice_symbols.lib))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name /UART0_Tx)
       (node (ref P1) (pin 8))

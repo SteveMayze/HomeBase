@@ -1,4 +1,4 @@
-update=15/08/2017 20:05:44
+update=19/08/2017 09:59:38
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=D:/pcbs/CE_Header/CE_Header/lib;../../../FieldDevice/kicad/lib
@@ -61,3 +59,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+[general]
+version=1
