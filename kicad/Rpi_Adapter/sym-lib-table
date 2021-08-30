@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Rpi_Adapter-rescue)(type Legacy)(uri ${KIPRJMOD}/Rpi_Adapter-rescue.lib)(options "")(descr ""))
+  (lib (name Rpi_Adapter_Symbols)(type Legacy)(uri ${KIPRJMOD}/Rpi_Adapter_Symbols.lib)(options "")(descr ""))
+  (lib (name GoldCap)(type Legacy)(uri ${MYLIB}/GoldCap.lib)(options "")(descr ""))
+  (lib (name XBee-Adapter)(type Legacy)(uri ${MYLIB}/XBee-Adapter.lib)(options "")(descr ""))
+)

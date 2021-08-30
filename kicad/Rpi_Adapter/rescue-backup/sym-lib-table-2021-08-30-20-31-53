@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name GoldCap)(type Legacy)(uri ${MYLIB}/GoldCap.lib)(options "")(descr ""))
+  (lib (name XBee-Adapter)(type Legacy)(uri ${MYLIB}/XBee-Adapter.lib)(options "")(descr ""))
+)

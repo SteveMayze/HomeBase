@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name Rpi_Adapter_Footprints)(type KiCad)(uri "$(KIPRJMOD)\\lib\\Rpi_Adapter_Footprints.pretty")(options "")(descr ""))
-  (lib (name FieldDevice_Footprints)(type KiCad)(uri D:\pcbs\Leawood\FieldDevice\kicad\lib\FieldDevice_Footprints.pretty)(options "")(descr ""))
+  (lib (name Rpi_Adapter_Footprints)(type KiCad)(uri "$(KIPRJMOD)/lib/Rpi_Adapter_Footprints.pretty")(options "")(descr ""))
+  (lib (name FieldDevice_Footprints)(type KiCad)(uri ${LEAWOOD}/FieldDevice/kicad/lib/FieldDevice_Footprints.pretty)(options "")(descr ""))
+  (lib (name XBee-Adapter)(type KiCad)(uri ${MYLIB}/XBee-Adapter.pretty)(options "")(descr ""))
+  (lib (name GoldCap-Check)(type KiCad)(uri ${MYLIB}/GoldCap-Check.pretty)(options "")(descr ""))
 )
