@@ -13,12 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4500 2900 0    60   ~ 0
+Text Label 4000 2150 0    60   ~ 0
 3V3
 Wire Wire Line
-	4500 2900 4650 2900
+	4000 2150 4250 2150
 Wire Wire Line
-	4650 2900 4650 3000
+	4650 2150 4650 3000
 $Comp
 L power:GND #PWR01
 U 1 1 59933977
@@ -55,74 +55,74 @@ NoConn ~ 3550 4000
 $Comp
 L Rpi_Adapter-rescue:CONN_02X06 P1
 U 1 1 59933EB5
-P 3250 1900
-F 0 "P1" H 3250 2250 50  0000 C CNN
-F 1 "Raspberry PI" H 3250 1550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 3250 700 60  0001 C CNN
-F 3 "" H 3250 700 60  0000 C CNN
-	1    3250 1900
+P 2450 1450
+F 0 "P1" H 2450 1800 50  0000 C CNN
+F 1 "Raspberry PI" H 2450 1100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 2450 250 60  0001 C CNN
+F 3 "" H 2450 250 60  0000 C CNN
+	1    2450 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 1650 2550 1650
+	2200 1200 1750 1200
 Wire Wire Line
-	3500 1850 4250 1850
+	2700 1400 3450 1400
 Wire Wire Line
-	3500 1950 3950 1950
+	2700 1500 3150 1500
 Wire Wire Line
-	3500 2050 3950 2050
-Text Label 2550 1650 0    60   ~ 0
+	2700 1600 3150 1600
+Text Label 1750 1200 0    60   ~ 0
 3V3
 $Comp
 L power:GND #PWR02
 U 1 1 5993431C
-P 4250 1900
-F 0 "#PWR02" H 4250 1650 50  0001 C CNN
-F 1 "GND" H 4250 1750 50  0000 C CNN
-F 2 "" H 4250 1900 60  0000 C CNN
-F 3 "" H 4250 1900 60  0000 C CNN
-	1    4250 1900
+P 3450 1450
+F 0 "#PWR02" H 3450 1200 50  0001 C CNN
+F 1 "GND" H 3450 1300 50  0000 C CNN
+F 2 "" H 3450 1450 60  0000 C CNN
+F 3 "" H 3450 1450 60  0000 C CNN
+	1    3450 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 1850 4250 1900
-Text Label 3950 1950 2    60   ~ 0
+	3450 1400 3450 1450
+Text Label 3150 1500 2    60   ~ 0
 UART0_Tx
-Text Label 3950 2050 2    60   ~ 0
+Text Label 3150 1600 2    60   ~ 0
 UART0_Rx
 Wire Wire Line
-	3500 1650 3950 1650
+	2700 1200 3150 1200
 Wire Wire Line
-	3500 1750 3950 1750
+	2700 1300 3150 1300
 Wire Wire Line
-	3000 1750 2550 1750
+	2200 1300 1750 1300
 Wire Wire Line
-	3000 1850 2550 1850
+	2200 1400 1750 1400
 Wire Wire Line
-	3000 1950 2550 1950
+	2200 1500 1750 1500
 Wire Wire Line
-	3000 2050 2550 2050
+	2200 1600 1750 1600
 Wire Wire Line
-	3000 2150 2550 2150
+	2200 1700 1750 1700
 Wire Wire Line
-	3500 2150 3950 2150
-Text Label 2550 1750 0    60   ~ 0
+	2700 1700 3150 1700
+Text Label 1750 1300 0    60   ~ 0
 I2C1_SDA
-Text Label 2550 1850 0    60   ~ 0
+Text Label 1750 1400 0    60   ~ 0
 I2C1_SCL
-Text Label 2550 1950 0    60   ~ 0
+Text Label 1750 1500 0    60   ~ 0
 GPIO_4
-Text Label 2550 2050 0    60   ~ 0
+Text Label 1750 1600 0    60   ~ 0
 GND
-Text Label 2550 2150 0    60   ~ 0
+Text Label 1750 1700 0    60   ~ 0
 GPIO_17
-Text Label 3950 1650 2    60   ~ 0
+Text Label 3150 1200 2    60   ~ 0
 5V
-Text Label 3950 1750 2    60   ~ 0
+Text Label 3150 1300 2    60   ~ 0
 5V
-Text Label 4200 1850 2    60   ~ 0
+Text Label 3400 1400 2    60   ~ 0
 GND
-Text Label 3950 2150 2    60   ~ 0
+Text Label 3150 1700 2    60   ~ 0
 GPIO_18
 $Comp
 L XBee-Adapter:DIGI_XBEE H1
@@ -228,13 +228,13 @@ U 1 1 612D664A
 P 8050 2300
 F 0 "SW1" H 8050 2585 50  0000 C CNN
 F 1 "SW_Push" H 8050 2494 50  0000 C CNN
-F 2 "GoldCap-Check:SPST_FSM2JSMAA" H 8050 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8050 2500 50  0001 C CNN
 F 3 "~" H 8050 2500 50  0001 C CNN
 	1    8050 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 4100 2900 4100
+	3550 4100 3100 4100
 Text Label 8000 1700 0    60   ~ 0
 GPIO_18
 Wire Wire Line
@@ -244,52 +244,52 @@ Wire Wire Line
 Connection ~ 8350 2300
 Wire Wire Line
 	8350 2300 8250 2300
-Text Label 2900 4100 0    50   ~ 0
+Text Label 3100 4100 0    50   ~ 0
 ~RESET
 Wire Wire Line
 	5750 4200 5950 4200
 Wire Wire Line
 	5750 4400 5950 4400
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP1
 U 1 1 612FC7BD
 P 6100 4200
-F 0 "JP?" H 6100 4405 50  0000 C CNN
+F 0 "JP1" H 6100 4405 50  0000 C CNN
 F 1 "ASSOCIATE" H 6100 4314 50  0000 C CNN
-F 2 "" H 6100 4200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6100 4200 50  0001 C CNN
 F 3 "~" H 6100 4200 50  0001 C CNN
 	1    6100 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP2
 U 1 1 612FD33D
 P 6100 4400
-F 0 "JP?" H 6100 4200 50  0000 C CNN
+F 0 "JP2" H 6100 4200 50  0000 C CNN
 F 1 "ON" H 6100 4300 50  0000 C CNN
-F 2 "" H 6100 4400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6100 4400 50  0001 C CNN
 F 3 "~" H 6100 4400 50  0001 C CNN
 	1    6100 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 612FE401
 P 6450 4900
-F 0 "D?" V 6489 4782 50  0000 R CNN
+F 0 "D1" V 6489 4782 50  0000 R CNN
 F 1 "LED" V 6398 4782 50  0000 R CNN
-F 2 "" H 6450 4900 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6450 4900 50  0001 C CNN
 F 3 "~" H 6450 4900 50  0001 C CNN
 	1    6450 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 612FF5D4
 P 6900 4900
-F 0 "D?" V 6939 4782 50  0000 R CNN
+F 0 "D2" V 6939 4782 50  0000 R CNN
 F 1 "LED" V 6848 4782 50  0000 R CNN
-F 2 "" H 6900 4900 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6900 4900 50  0001 C CNN
 F 3 "~" H 6900 4900 50  0001 C CNN
 	1    6900 4900
 	0    -1   -1   0   
@@ -312,10 +312,10 @@ Connection ~ 6450 5250
 Wire Wire Line
 	6450 5250 6450 5400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 61300F5E
 P 6450 5400
-F 0 "#PWR?" H 6450 5150 50  0001 C CNN
+F 0 "#PWR0101" H 6450 5150 50  0001 C CNN
 F 1 "GND" H 6450 5250 50  0000 C CNN
 F 2 "" H 6450 5400 60  0000 C CNN
 F 3 "" H 6450 5400 60  0000 C CNN
@@ -323,27 +323,89 @@ F 3 "" H 6450 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 61301AD8
 P 6450 4600
-F 0 "R?" H 6520 4646 50  0000 L CNN
+F 0 "R3" H 6520 4646 50  0000 L CNN
 F 1 "680Ω" H 6520 4555 50  0000 L CNN
-F 2 "" V 6380 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6380 4600 50  0001 C CNN
 F 3 "~" H 6450 4600 50  0001 C CNN
 	1    6450 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 61301FA2
 P 6900 4600
-F 0 "R?" H 6970 4646 50  0000 L CNN
+F 0 "R4" H 6970 4646 50  0000 L CNN
 F 1 "680Ω" H 6970 4555 50  0000 L CNN
-F 2 "" V 6830 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6830 4600 50  0001 C CNN
 F 3 "~" H 6900 4600 50  0001 C CNN
 	1    6900 4600
 	1    0    0    -1  
 $EndComp
 Text Notes 6800 5350 0    50   ~ 0
 3V3 @ 5mA
+$Comp
+L Device:C C1
+U 1 1 612E681C
+P 4250 2400
+F 0 "C1" H 4365 2446 50  0000 L CNN
+F 1 "100nF" H 4365 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4288 2250 50  0001 C CNN
+F 3 "~" H 4250 2400 50  0001 C CNN
+	1    4250 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2150 4250 2250
+Wire Wire Line
+	4250 2550 4250 2700
+Connection ~ 4250 2150
+Wire Wire Line
+	4250 2150 4650 2150
+$Comp
+L power:GND #PWR05
+U 1 1 612E794A
+P 4250 2700
+F 0 "#PWR05" H 4250 2450 50  0001 C CNN
+F 1 "GND" H 4250 2550 50  0000 C CNN
+F 2 "" H 4250 2700 60  0000 C CNN
+F 3 "" H 4250 2700 60  0000 C CNN
+	1    4250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mech:logo L1
+U 1 1 612E7975
+P 2300 6550
+F 0 "L1" H 2300 6550 50  0001 C CNN
+F 1 "logo" H 2528 6550 50  0000 L CNN
+F 2 "XBee-Adapter:MyBasic_rounded_50_1" H 2300 6550 50  0001 C CNN
+F 3 "" H 2300 6550 50  0001 C CNN
+	1    2300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mech:board B1
+U 1 1 612EB311
+P 3150 6550
+F 0 "B1" H 3378 6571 50  0000 L CNN
+F 1 "XBee Board" H 3378 6480 50  0000 L CNN
+F 2 "mech:Board Ref" H 3150 6550 50  0001 C CNN
+F 3 "" H 3150 6550 50  0001 C CNN
+	1    3150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mech:logo B2
+U 1 1 612ECCDF
+P 2300 7050
+F 0 "B2" H 2300 7050 50  0001 C CNN
+F 1 "Raspberry Pi Zero" H 2300 6850 50  0000 C CNN
+F 2 "mech:Board Ref" H 2300 7050 50  0001 C CNN
+F 3 "" H 2300 7050 50  0001 C CNN
+	1    2300 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

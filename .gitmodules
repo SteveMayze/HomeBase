@@ -1,0 +1,3 @@
+[submodule "kicad/Rpi_Adapter/kicad_lib"]
+	path = kicad/Rpi_Adapter/kicad_lib
+	url = git@github.com:SteveMayze/kicad_lib.git
