@@ -191,20 +191,28 @@ ENDDEF
 #
 # mech_board
 #
-DEF mech_board B 0 40 Y Y 1 F N
-F0 "B" 0 -100 50 H V C CNN
-F1 "mech_board" 0 0 50 H V C CNN
+DEF mech_board Brd 0 40 Y Y 1 F N
+F0 "Brd" 0 -100 50 H I C CNN
+F1 "mech_board" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -200 100 200 -150 0 1 0 N
+S -200 50 200 -50 0 1 0 N
+S -55 125 10 105 0 1 0 N
+S 130 160 225 130 0 1 0 N
+P 2 0 1 0 10 125 45 160 N
+P 2 0 1 0 200 50 350 250 N
+P 2 0 1 0 225 160 275 215 N
+P 5 0 1 0 -200 50 50 250 350 250 350 150 200 -50 N
+P 5 0 1 0 -55 125 -10 160 45 160 45 140 10 105 N
+P 5 0 1 0 130 160 190 215 275 215 275 190 225 130 N
 ENDDRAW
 ENDDEF
 #
 # mech_logo
 #
-DEF mech_logo L 0 40 Y Y 1 F N
-F0 "L" 0 0 50 H I C CNN
+DEF mech_logo Lg 0 40 Y Y 1 F N
+F0 "Lg" 0 0 50 H I C CNN
 F1 "mech_logo" 0 -50 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
